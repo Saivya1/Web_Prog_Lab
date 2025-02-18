@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Information</title>
+</head>
+<body>
+    <h1>Book Title</h1>
+    <img src="/static/book_cover.jpg" alt="Book Cover" style="width:200px;height:300px;">
+    <br><br>
+    <a href="{% url 'metadata_page' %}">Metadata</a> |
+    <a href="{% url 'reviews_page' %}">Reviews</a> |
+    <a href="{% url 'publisher_page' %}">Publisher Info</a>
+</body>
+</html>
